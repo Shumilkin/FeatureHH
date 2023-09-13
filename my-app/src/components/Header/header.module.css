@@ -1,0 +1,79 @@
+.header {
+    grid-area: h;
+    background-color: #f2f2f2;
+    height: 78px;
+
+}
+
+.mainlogo {
+    width: 50px;
+    margin-left: 50px;
+}
+
+.mainlogo img {
+    display: block;
+
+}
+
+.logoText {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.headerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 100%;
+}
+
+.child-active {
+    flex-basis: 50%;
+}
+
+.profileLogo {
+    height: 45px;
+    border-radius: 50%;
+
+}
+
+.activitiesContainer {
+    width: 350px;
+    height: 45vh;
+    padding: 0px 15px;
+    overflow: auto;
+    white-space: normal;
+
+&
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+    background: #00000038;
+}
+
+&
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #595959;
+}
+
+}
+.arrow {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.arrowClose {
+    position: absolute;
+    top: 80px;
+    left: 210px;
+
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    transform: rotate(90deg);
+}

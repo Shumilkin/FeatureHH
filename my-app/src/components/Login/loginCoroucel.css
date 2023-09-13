@@ -1,0 +1,43 @@
+.background{
+
+    height: 100vh;
+
+    background: linear-gradient(-45deg, #b12bf0, #5a1ad9, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 12s ease infinite;
+  /*background-color: steelblue;*/
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.mainlogo{
+    width:100px;
+    margin-left: 50px;
+}
+.carouselItem{
+    width:400px;
+    border-radius:5px ;
+
+}
+.mainlogo  {
+    width: 60px;
+    margin:0;
+    padding: 0;
+}
+.msnetLogo{
+    display: inline;
+}
+.tline{
+    border:2px solid green
+}
+.outlineCarousel{
+    margin-top: 4%;
+}

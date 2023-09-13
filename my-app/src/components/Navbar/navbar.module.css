@@ -1,0 +1,39 @@
+
+.nav {
+    grid-area: n;
+    }
+.sidebarButton{
+    text-decoration: none;
+    color: grey;
+    height: 40px;
+    width:100px;
+}
+.sidebarButton :hover {
+    background-color: grey;
+    color:red;
+    width:100px;
+}
+.sidebarLogo{
+    width:50px;
+
+border-radius: 50%;}
+.sidebarName{
+    color:black;
+    font-size: 20px;
+    margin-left: 15px;
+    padding-right:-5px;
+}
+.sidebarSite{
+    color:grey;
+    font-size: 12px;
+    margin-left: 15px;
+}
+.profileInfoContainer{
+    border-bottom:1px solid lightgrey;
+    padding-bottom:15px;
+    margin-bottom: 15px;
+
+}
+.sidebarCloser{
+    right:-15px;
+}

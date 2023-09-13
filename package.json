@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@uiw/react-back-to-top": "^1.2.2",
+    "react-clear-cache": "^1.4.14",
+    "react-owl-carousel": "^2.3.3",
+    "react-owl-carousel2": "^0.3.0",
+    "react-slick": "^0.29.0",
+    "redux-thunk": "^2.4.2",
+    "slick-carousel": "^1.8.1"
+  }
+}
